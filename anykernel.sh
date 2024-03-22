@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=NoVA by Abdul7852
+kernel.string=CyperEdge Nethunter kernel by Husam @termnh
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -50,7 +50,7 @@ if isTimRom; then
 
     ui_print " » Custom ROM recognition: Tim's Signature ";
     ui_print " » Initiating vibration fix deployment "
-    ui_print " » Executing NoVA flash....";
+    ui_print " » Executing CyperEdge flash....";
 
     split_boot;
     patch_cmdline initcall_blacklist initcall_blacklist=
@@ -72,7 +72,7 @@ elif isDerp; then
     rm -rf $ramdisk/overlay.d;
 
     ui_print " » Custom ROM recognition: DerpFest's detected ";
-    ui_print " » Executing NoVA flash....";
+    ui_print " » Executing CyperEdge flash....";
 
     dump_boot;
     write_boot;
@@ -91,7 +91,7 @@ else
     rm -rf $ramdisk/overlay;
     rm -rf $ramdisk/overlay.d;
 
-    ui_print " » Executing NoVA flash....";
+    ui_print " » Executing CyperEdge flash....";
 
     dump_boot;
     write_boot;
