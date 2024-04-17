@@ -10,8 +10,8 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=begonia
-device.name2=begoniain
+device.name1=camellian
+device.name2=camellia
 supported.versions=
 supported.patchlevels=
 '; } # end properties
