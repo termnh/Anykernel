@@ -4,14 +4,14 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=CyperEdge Nethunter kernel by Husam @termnh
-do.devicecheck=1
+kernel.string=OnePus 7 Nethunter kernel by Husam @termnh (BT-perf)
+do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=begonia
-device.name2=begoniain
+device.name1=guacamoleb
+device.name2=OnePlus7
 supported.versions=
 supported.patchlevels=
 '; } # end properties
