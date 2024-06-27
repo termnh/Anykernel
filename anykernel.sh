@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=CyperEdge for Engineer ROM ( EXPERIMENTAL )
+kernel.string=CyperEdge for A10-CFW ( EXPERIMENTAL )
 do.devicecheck=1
 do.modules=0
 do.systemless=1
